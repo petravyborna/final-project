@@ -95,7 +95,6 @@ input {
     font-style: fonts.$main-font; 
     font-size: 14px;
     line-height: 26px; 
-    letter-spacing: 1.4px; 
     text-transform: uppercase; 
     color: fonts.$main-txt-color; 
     border: 2px solid #fff; 
@@ -113,6 +112,7 @@ input {
 
 .scroll {
     margin-top: 108px;
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

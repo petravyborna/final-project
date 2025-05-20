@@ -8,8 +8,8 @@
 @use 'fonts';
 
 .footer {
-    min-height: 271px;
     height: 100%; 
+    min-height: 271px;
     background-color: #232323;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -61,10 +61,10 @@
             justify-content: space-evenly;
 } 
 
-.fa-linkedin-in {
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-linkedin-in:hover, .fa-youtube:hover, .fa-pinterest:hover {
     color: #5474FD;
 }
 
-.fa-facebook-f:hover, .fa-twitter:hover, .fa-linkedin-in:hover, .fa-youtube:hover, .fa-pinterest:hover {
+.fa-linkedin-in {
     color: #5474FD;
 }
