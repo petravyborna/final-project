@@ -1,3 +1,10 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @use 'fonts';
 
 * {
@@ -7,8 +14,11 @@
 .nav {
     width: 100%;
     background-color: #5474FD;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
         
@@ -27,6 +37,8 @@
         }
 
     &__links {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex; 
         font-family: fonts.$main-font; 
         font-weight: normal; 
@@ -37,6 +49,8 @@
     }
 
     &__links li a {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         font-family: fonts.$main-font; 
         font-weight: normal; 

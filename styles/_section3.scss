@@ -1,0 +1,89 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@use 'fonts';
+
+.third-section {
+    background-image: url(../images/section3-background.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    min-height: 731px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    &__container {
+        padding-left: 62px; 
+        max-width: 668px;
+        width: 100%;
+        min-height: 284px;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        background-color: #333333;
+    }
+
+    &__wrapper {
+   
+        display: -webkit-box;
+   
+        display: -ms-flexbox;
+   
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; 
+    }
+
+    &__title {
+        font-family: fonts.$head-font;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    &__info {
+        font-family: fonts.$head-font;
+        font-size: 16px;
+        font-weight: normal; 
+        line-height: 26px; 
+    }
+}
+
+.sec3-img1 {
+    max-width: 445px;
+    width: 100%;
+    min-height: 284px;
+    height: 100%;
+}
+
+.fa-quote-left {
+    font-size: 30px;
+    color: #496BFE;
+}
