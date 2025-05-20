@@ -1,0 +1,107 @@
+@use 'fonts';
+
+.first-section {
+    margin: 0;
+    background-image: url(../images/section1-background.png);
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-size: cover; 
+    min-height: 685px;
+    height: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    &__left {
+        max-width: 560px;
+        width: 100%;
+    }
+
+    &__title {
+        font-family: fonts.$main-font;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 26px;
+        margin-bottom: 46px;
+    }
+
+    &__info {
+        font-family: fonts.$head-font;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px; 
+        letter-spacing: 1.6px; 
+        color: fonts.$main-info-color;
+        margin-bottom: 45px;
+    }
+}
+
+.first-section__button {
+    width: 228px;
+    height: 63px;
+    background-color: #496BFE;
+    font-family: fonts.$main-font; 
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    letter-spacing: 1.2px; 
+    text-transform: uppercase; 
+    border: none; 
+    color: fonts.$main-txt-color;
+}
+
+.first-section__button:hover {
+    background-color: #17204a;
+}
+
+.images-wrapper {
+    width: 420px; 
+
+}
+
+.section1-img1 {
+    max-width: 350px;
+    width: 100%;
+    min-height: 220px;
+    height: 100%; 
+    float: left;
+    margin-bottom: 10px;
+}
+
+.section1-img2 {
+    max-width: 350px;
+    width: 100%;
+    min-height: 220px;
+    height: 100%; 
+    float: right;
+}
+
+.bottom-container {
+    width: 100%;
+    min-height: 340px;
+    height: 100%;
+    background-color: #333333;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &__1, &__2, &__3 {
+        width: 350px;
+        height: 160px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__text {
+        font-family: fonts.$main-font;
+        font-size: 36px; 
+        font-weight: normal;
+        line-height: 26px;
+        color: fonts.$main-info-color;
+    }
+
+    &__icon {
+        margin-bottom: 40px; 
+    }
+}    
