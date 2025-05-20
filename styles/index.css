@@ -42,7 +42,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
 }
-.header__title {
+.header__logo {
   font-family: "josefin sans", sans-serif;
   font-size: 48px;
   font-weight: bold;
@@ -555,5 +555,69 @@ input {
 .fa-quote-left {
   font-size: 30px;
   color: #496BFE;
+}
+
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+.footer {
+  min-height: 218px;
+  height: 100%;
+  background-color: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 53px;
+}
+.footer__logo {
+  font-family: "josefin sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 26px;
+  letter-spacing: 3.36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.footer__text {
+  font-family: "josefin sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer__icons {
+  max-width: 166px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.fa-linkedin-in {
+  color: #5474FD;
+}
+
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-linkedin-in:hover, .fa-youtube:hover, .fa-pinterest:hover {
+  color: #5474FD;
 }
 /*# sourceMappingURL=index.css.map */
