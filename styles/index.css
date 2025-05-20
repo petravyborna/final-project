@@ -319,6 +319,16 @@ input {
   -ms-flex-align: center;
   align-items: center;
 }
+.icon-container__text {
+  font-family: "aleo", serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 26px;
+  color: #E8E8E8;
+}
+.icon-container__icon {
+  margin-bottom: 40px;
+}
 .icon-container__1, .icon-container__2, .icon-container__3 {
   width: 350px;
   height: 160px;
@@ -332,16 +342,6 @@ input {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-.icon-container__text {
-  font-family: "aleo", serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 26px;
-  color: #E8E8E8;
-}
-.icon-container__icon {
-  margin-bottom: 40px;
 }
 
 /*
@@ -542,13 +542,6 @@ input {
   font-size: 16px;
   font-weight: normal;
   line-height: 26px;
-}
-
-.sec3-img1 {
-  max-width: 445px;
-  width: 100%;
-  min-height: 284px;
-  height: 100%;
 }
 
 .fa-quote-left {

@@ -104,6 +104,18 @@
         -ms-flex-align: center;
             align-items: center;
 
+    &__text {
+        font-family: fonts.$main-font;
+        font-size: 36px; 
+        font-weight: normal;
+        line-height: 26px;
+        color: fonts.$main-info-color;
+    }
+
+    &__icon {
+        margin-bottom: 40px; 
+    }
+
     &__1, &__2, &__3 {
         width: 350px;
         height: 160px; 
@@ -119,15 +131,4 @@
                 align-items: center;
     }
 
-    &__text {
-        font-family: fonts.$main-font;
-        font-size: 36px; 
-        font-weight: normal;
-        line-height: 26px;
-        color: fonts.$main-info-color;
-    }
-
-    &__icon {
-        margin-bottom: 40px; 
-    }
 }    
