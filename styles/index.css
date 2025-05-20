@@ -305,7 +305,7 @@ input {
   float: right;
 }
 
-.bottom-container {
+.icon-container {
   width: 100%;
   min-height: 340px;
   height: 100%;
@@ -320,7 +320,7 @@ input {
   -ms-flex-align: center;
   align-items: center;
 }
-.bottom-container__1, .bottom-container__2, .bottom-container__3 {
+.icon-container__1, .icon-container__2, .icon-container__3 {
   width: 350px;
   height: 160px;
   display: -webkit-box;
@@ -334,14 +334,14 @@ input {
   -ms-flex-align: center;
   align-items: center;
 }
-.bottom-container__text {
+.icon-container__text {
   font-family: "aleo", serif;
   font-size: 36px;
   font-weight: normal;
   line-height: 26px;
   color: #E8E8E8;
 }
-.bottom-container__icon {
+.icon-container__icon {
   margin-bottom: 40px;
 }
 
