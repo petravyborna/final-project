@@ -48,7 +48,6 @@ body {
   font-weight: bold;
   line-height: 26px;
   letter-spacing: 4.8px;
-  text-transform: uppercase;
   margin-bottom: 11px;
 }
 .header__text {
@@ -570,7 +569,7 @@ input {
 * Browsers: last 4 version
 */
 .footer {
-  min-height: 218px;
+  min-height: 271px;
   height: 100%;
   background-color: #232323;
   display: -webkit-box;
@@ -595,7 +594,6 @@ input {
   line-height: 26px;
   letter-spacing: 3.36px;
   text-align: center;
-  text-transform: uppercase;
   margin-bottom: 8px;
 }
 .footer__text {
