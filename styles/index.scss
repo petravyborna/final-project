@@ -1,0 +1,8 @@
+@use 'fonts';
+
+body {
+    height: 100vh;
+    color: fonts.$main-txt-color;
+}
+
+@import 'header'; 
